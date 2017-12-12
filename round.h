@@ -15,6 +15,5 @@ class Round {
 public:
 	void run();
 	void createShape(int shape);
-	void moveShape(int shape);
-	void moveShape(int shape, Direction dir);
+	void moveShape(int shape, Direction dir = Direction::DOWN);
 };

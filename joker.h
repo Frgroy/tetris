@@ -6,9 +6,6 @@ class Joker
 	Point body{ (int)Range::MID_X, (int)Range::MIN_Y, figure };
 
 public:
-	void move(Direction dir)
-	{
-		body.move(dir);
-	}
+	void move(Direction dir) { body.move(dir); }
 	void draw() { body.draw(); }
 };

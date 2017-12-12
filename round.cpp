@@ -39,26 +39,6 @@ void Round::createShape(int shape)
 		break;
 	}
 }
-void Round::moveShape(int shape)
-{
-	switch (shape) {
-	case (int)Shape::BOMB:
-		Bomb().move(Direction::DOWN);
-		break;
-
-	case (int)Shape::JOKER:
-		Joker().move(Direction::DOWN);
-		break;
-
-	case (int)Shape::SQUARE:
-		Square().move(Direction::DOWN);
-		break;
-
-	case (int)Shape::STICK:
-		Stick().move(Direction::DOWN);
-		break;
-	}
-}
 void Round::moveShape(int shape, Direction dir)
 {
 	switch (shape) {
