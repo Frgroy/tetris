@@ -1,9 +1,8 @@
 #pragma once
-#include "game.h"
+#include "tetrisGame.h"
 int main()
 {
-	Game().run();
-
+	tetrisGame().run();
 	system("pause");
 	return 0;
 }
